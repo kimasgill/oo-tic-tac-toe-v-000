@@ -54,7 +54,8 @@ class TicTacToe
       move(index, value="X")
     else !valid_move?
       puts "Please enter 1-9:"
-    user_input = gets.chomp
+      user_input = gets.chomp
+    end
   end 
 
   def turn_count
