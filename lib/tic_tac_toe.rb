@@ -52,7 +52,8 @@ class TicTacToe
     input_to_index(user_input)
     if valid_move?
       move(index, value="X")
-    else
+    else !valid_move?
+      
   end 
 
   def turn_count
